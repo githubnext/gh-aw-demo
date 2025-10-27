@@ -1,0 +1,11 @@
+matches:
+  - trigger: ";;co"
+    replace: "copilot --banner"
+  - trigger: ";;aw"
+    replace: "activate @.github/prompts/create-agentic-workflow.prompt.md"
+  - trigger: ";;dn"
+    replace: "I want a Daily News report about the activity in this repository."
+  - trigger: ";;pr"
+    replace: "prs, issues, and some insights about how the project is doing"
+  - trigger: ";;sc"
+    replace: "8am PST, and just decide for me on the latest details"
